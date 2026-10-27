@@ -1,0 +1,16 @@
+{
+  "name": "users-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gherkin API tests for the Beeceptor users endpoint",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:dry-run": "cucumber-js --dry-run"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "13.3.0"
+  }
+}
